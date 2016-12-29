@@ -1,0 +1,31 @@
+{
+  "name": "tigereye",
+  "version": "1.0.0",
+  "description": "TigerEye is a javascript that will record your mouse movement, clicks and keystrokes to be then available as a JSON script for end-to-end tests.",
+  "main": "dist/js/tigereye.min.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://richardedens@github.com/richardedens/tigereye.git"
+  },
+  "keywords": [
+    "tiger",
+    "eye",
+    "record",
+    "mouse",
+    "movement",
+    "clicks",
+    "keystrokes"
+  ],
+  "author": "Gerhard Richard Edens <richardedens@outlook.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/richardedens/tigereye/issues"
+  },
+  "homepage": "https://github.com/richardedens/tigereye#readme"
+}
