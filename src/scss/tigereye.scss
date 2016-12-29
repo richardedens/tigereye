@@ -1,0 +1,107 @@
+/***********************************************
+ TigerEye
+************************************************/
+.tigereye {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  overflow: scroll;
+  width: 400px;
+  height: 200px;
+  background: silver;
+  padding-bottom: 15px;
+  padding-top: 27px;
+  border: 1px solid silver;
+  border-top: 3px solid orangered;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.35);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.35);
+  z-index: 10000000;
+  overflow: hidden;
+}
+.tigereye-step {
+  width: 100%;
+  height: 40px;
+  color: black;
+  border-bottom: 1px solid silver;
+  vertical-align: middle;
+  text-align: left;
+  padding-top: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+.tigereye-content {
+  position: relative;
+  overflow: scroll;
+  height: 167px;
+  border-bottom: 2px solid grey;
+}
+.tigereye-add-row {
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  border: 1px solid darkgrey;
+  height: 2px;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+.tigereye-add-row:hover {
+  height: 20px;
+}
+.tigereye-header {
+  position: absolute;
+  background: #ffa84c; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffa84c 0%, #ff7b0d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 25px;
+  padding: 0;
+  background-color: orange;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-top: 3px;
+  color: black;
+  display: inline-block;
+  font-family: Calibri, Helvetica, Arial, sans-serif
+}
+.tigereye-header svg {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.tigereye-btn,
+.tigereye-btn:active,
+.tigereye-btn:hover,
+.tigereye-btn:visited {
+  color: white;
+  background: black;
+  border: 1px solid transparent;
+  height: 20px;
+  width: 80px;
+  cursor:pointer;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  float: right;
+  margin-right: 5px;
+}
+/* END */
