@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         },
         uglify: {
             options: {
-                mangle: false
+                mangle: true
             },
             my_target: {
                 files: {
