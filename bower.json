@@ -5,7 +5,10 @@
     "Gerhard Richard Edens <richardedens@outlook.com>"
   ],
   "description": "TigerEye is a library that allows you to automaticly record clicks, keyup strokes and more for end-to-end tests.",
-  "main": "tigereye.js",
+  "main": [
+    "src/css/tigereye.css",
+    "src/js/tigereye.js"
+  ],
   "keywords": [
     "tiger",
     "eye",
